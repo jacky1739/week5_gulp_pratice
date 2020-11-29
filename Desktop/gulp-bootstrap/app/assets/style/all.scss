@@ -1,9 +1,9 @@
 @import "reset";
 @import "variable";
-@import "base";
 @import "util";
-@import "sideBar";
-@import "main";
+@import "mixin";
+@import "layout";
+
 
 .wrap{
     display: flex;
