@@ -1,10 +1,7 @@
-@import "reset";
-@import "variable";
-@import "util";
-@import "mixin";
-@import "layout";
+@import "base/reset";
+@import "bootstrap/bootstrap.scss";
+@import "page/index";
+@import "utils/mixin";
+@import "inbox/util";
+@import "inbox/variable";
 
-
-.wrap{
-    display: flex;
-}

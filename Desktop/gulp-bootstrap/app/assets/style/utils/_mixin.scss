@@ -3,3 +3,9 @@
     text-indent: 101%;
     white-space: nowrap;
 }
+
+@mixin picture {
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+}
