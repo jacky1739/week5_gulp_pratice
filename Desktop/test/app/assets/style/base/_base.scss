@@ -19,4 +19,7 @@ ul {
 
 .border{
     border: 1px solid black;
+    &_bold{
+        border: 2px solid black;
+    }
 }
