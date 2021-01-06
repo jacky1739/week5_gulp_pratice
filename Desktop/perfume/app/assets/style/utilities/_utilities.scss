@@ -1,0 +1,20 @@
+@mixin textCover {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@mixin bg-cover($url, $height) {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url($url);
+    height: $height;
+}
+
+@mixin img-cover($height) {
+    height: $height;
+    object-fit: cover;
+    object-position: center center;
+}
+

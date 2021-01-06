@@ -1,0 +1,70 @@
+.banner {
+    width: auto;
+    height: 870px;
+    background-image: url('../images/index1.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    @media (max-width: 870px){
+        height: 870px;
+    }
+    @media (max-width: 678px){
+        height: 480px;
+    }
+}
+
+.card{
+    &_body{
+        align-items: center;
+        justify-content: center;
+        // display: flex;
+    }
+    &_title{
+        font: normal normal bold 32px/48px SF Pro Text;
+    }
+    &_content{
+        font: normal normal 300 20px/30px PingFang TC;
+    }
+    &_img{
+        display: block;
+        max-width: 100%;
+        // height: 555px;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        @media (max-width: 375px){
+            width: 350px;
+            height: auto;
+        }
+    }
+    &_listImg{
+        height: 1080px;
+    }
+}
+
+.feature{
+    &_img{
+        width: 100%;
+        height: 540px;
+    }
+}
+
+.bottle-recycle{
+    width: 100%;
+    height: 520px;
+}
+
+.subscribe {
+    @include bg-cover("../images/index10.jpg", 600px);
+    padding-bottom: 112px;
+
+    &__input {
+        border: 2px solid $primary;
+        flex-grow: 1;
+
+        @include media-breakpoint-up(lg) {
+            flex-grow: 0;
+            width: 219px;
+        }
+    }
+}

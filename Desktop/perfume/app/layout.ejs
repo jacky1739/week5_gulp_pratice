@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title><%- title %></title>
+  <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/style/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+  <nav class="navbar navbar-light bg-white shadow-sm">
+    <div class="container-lg">
+      <h1 class="mb-0 pl-4 pl-lg-0">
+        <a class="logo" href="./index.html">
+          d’Perfume
+        </a>
+      </h1>
+      
+      <div class="d-lg-none ml-auto">
+        <a class="nav-link text-secondary position-relative" href="#">
+          <span class="material-icons">shopping_cart</span>
+          <span class="navbar__cart__icon badge badge-pill badge-primary font-weight-light">3</span>
+        </a>
+      </div>
+      <button class="navbar-toggler d-lg-none d-sm-block pr-lg-0" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="d-none d-lg-block">
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link d-flex" href="#"><span class="material-icons d-none d-lg-block mr-1">store</span>Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link d-flex" href="#"><span class="material-icons d-none d-lg-block mr-1">person</span>log in</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link d-flex" href="#"><span class="material-icons d-none d-lg-block mr-1">favorite</span>Wishlist</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link d-flex" href="#"><span class="material-icons d-none d-lg-block mr-1">shopping_cart</span>Cart(3)</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+
+  <%- contents %>
+
+  
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
